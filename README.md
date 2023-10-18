@@ -1,5 +1,5 @@
 # plug-demo
-浏览器插件demo基础版 架子 基于vue elementui 相关开发
+本项目是一个插件项目，用于演示插件的使用方法 快速打造自己的谷歌插件该项目使用 vue2.0 + webpack4.0 + less + es6 + vue-router + vuex + axios + element-ui + chrome-plugin 等其他插件开发原插件地址：https://github.com/dark-kingA/superSearchPlus使用该脚手架快速开发自己自定义插件。
 <img src="https://mmbiz.qpic.cn/mmbiz_png/ZSTfz8I9cvicl2XPbiboVibcgGyStPsU9f7HRLJ6meibjuUXDMLZYTcX5lWIBQicoKsqB4ibmAmRTTLUXrUw4zbzrABQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">
 
 # 初始化项目
