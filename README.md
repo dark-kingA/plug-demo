@@ -9,6 +9,9 @@ npm install
 npm run build
 查看当前目录下的dist
 
+# 文章地址
+<a href="https://mp.weixin.qq.com/s?__biz=MzU2OTkwNzIxOA==&mid=2247484226&idx=3&sn=ba9bf59fc7f6ac7d6758f70734af24f7&chksm=fcf6c23fcb814b297ddb74379d69dd643268ce789610a5c5ba3aca3e2e92c5d46cf17b189f66&scene=126&sessionid=1697643967&subscene=227&clicktime=1697643973&enterid=1697643973#rd">查看文章</a>
+
 # 以下基于本架子开发
 superSearchPlus：https://github.com/dark-kingA/superSearchPlus
 
