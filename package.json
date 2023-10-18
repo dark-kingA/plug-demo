@@ -1,0 +1,48 @@
+{
+	"name": "plug-demo",
+	"version": "0.1.0",
+	"private": true,
+	"environment": "web",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"build:watch": "vue-cli-service build --watch",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"axios": "^1.4.0",
+		"child_process": "^1.0.2",
+		"copy-webpack-plugin": "^5.0.4",
+		"core-js": "^3.1.2",
+		"element-ui": "^2.13.2",
+		"file-saver": "^2.0.5",
+		"js-base64": "^3.7.2",
+		"node-fetch": "^3.3.0",
+		"prismjs": "^1.29.0",
+		"vue": "^2.6.10",
+		"vue-clipboard2": "^0.3.3",
+		"vue-json-excel": "^0.3.0",
+		"vue-json-viewer": "^2.2.22",
+		"vue-prism-component": "^2.0.0",
+		"vue-resource": "^1.5.3",
+		"vue-router": "^3.1.2"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^4.2.0",
+		"@vue/cli-plugin-eslint": "^4.2.0",
+		"@vue/cli-plugin-router": "^4.2.0",
+		"@vue/cli-service": "^4.2.0",
+		"@vue/eslint-config-standard": "^5.1.0",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.7.2",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-node": "^11.0.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"eslint-plugin-vue": "^6.1.2",
+		"jquery": "^3.6.1",
+		"less": "^3.11.2",
+		"less-loader": "^6.1.0",
+		"vue-template-compiler": "^2.6.11"
+	}
+}

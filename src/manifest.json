@@ -1,0 +1,42 @@
+{
+	"manifest_version": 2,
+	"name": "plug-demo",
+	"description": "plug-demo",
+	"version": "0.0.2",
+	"icons": {
+		"48": "img/logo.png"
+	},
+	"browser_action": {
+		"default_icon": "img/logo.png",
+		"default_title": "plug-demo",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": ["js/hot-reload.js", "js/background.js"],
+		"persistent": true
+	},
+	"host_permissions": ["http://*/*", "https://*/*"],
+	"permissions": [
+		"proxy",
+		"storage",
+		"tabs",
+		"cookies",
+		"activeTab",
+		"http://*/*",
+		"https://*/*",
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>",
+		"webNavigation",
+		"contextMenus"
+	],
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"js": ["js/content.js"],
+			"run_at": "document_end"
+		}
+	],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"devtools_page": "devcreate.html"
+}
